@@ -1,2 +1,2 @@
-# VuelaRandom
-Optimización de busqueda de vuelos económicos
+# COVID-Mexico
+Análisis sobre el COVID en Mexico
