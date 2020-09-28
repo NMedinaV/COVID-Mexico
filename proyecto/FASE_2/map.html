@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3bab5464dcb94363ab677fc6654fde6f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3bab5464dcb94363ab677fc6654fde6f" ></div>
+        
+</body>
+<script>    
+    
+            var map_3bab5464dcb94363ab677fc6654fde6f = L.map(
+                "map_3bab5464dcb94363ab677fc6654fde6f",
+                {
+                    center: [23.634501, -102.552784],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c90a85db38d14ff18f753267e04e77c5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+            var marker_9075e0949f7e43ee8db78abc27fdde56 = L.marker(
+                [21.8818, -102.291],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_cc9104c8861d4026a43d8c1306edbb02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_518b1dc1bde741ae9a50601813d9dee7 = $(`<div id="html_518b1dc1bde741ae9a50601813d9dee7" style="width: 100.0%; height: 100.0%;">Aguascalientes: 286 positivos</div>`)[0];
+            popup_cc9104c8861d4026a43d8c1306edbb02.setContent(html_518b1dc1bde741ae9a50601813d9dee7);
+        
+
+        marker_9075e0949f7e43ee8db78abc27fdde56.bindPopup(popup_cc9104c8861d4026a43d8c1306edbb02)
+        ;
+
+        
+    
+    
+            var marker_530e4ba7e0cf419ab0d9fcd34f3ffbdf = L.marker(
+                [29.95, -115.11666699999999],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_0ef6bbc05bcb4b388a765b7dfe3bc0ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d2f39f28914e2e9ea7ce94a08a589d = $(`<div id="html_06d2f39f28914e2e9ea7ce94a08a589d" style="width: 100.0%; height: 100.0%;">Baja California: 1808 positivos</div>`)[0];
+            popup_0ef6bbc05bcb4b388a765b7dfe3bc0ad.setContent(html_06d2f39f28914e2e9ea7ce94a08a589d);
+        
+
+        marker_530e4ba7e0cf419ab0d9fcd34f3ffbdf.bindPopup(popup_0ef6bbc05bcb4b388a765b7dfe3bc0ad)
+        ;
+
+        
+    
+    
+            var marker_4a2ad011c04b4f29b581341d366cccff = L.marker(
+                [25.625057, -111.70068400000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_0cefe1ca690c4cba8f91911de12a202d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd8b92cd1b314b419a003d2ca9393043 = $(`<div id="html_fd8b92cd1b314b419a003d2ca9393043" style="width: 100.0%; height: 100.0%;">Baja California Sur: 344 positivos</div>`)[0];
+            popup_0cefe1ca690c4cba8f91911de12a202d.setContent(html_fd8b92cd1b314b419a003d2ca9393043);
+        
+
+        marker_4a2ad011c04b4f29b581341d366cccff.bindPopup(popup_0cefe1ca690c4cba8f91911de12a202d)
+        ;
+
+        
+    
+    
+            var marker_acd2206cf15c4eb79f10f42757d7596b = L.marker(
+                [19.4326296, -99.1331785],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_daaf10fed89749da9d54ef2dbcb3bb90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ff059f59be344b28e065785b0fe579b = $(`<div id="html_3ff059f59be344b28e065785b0fe579b" style="width: 100.0%; height: 100.0%;">CDMX: 6785 positivos</div>`)[0];
+            popup_daaf10fed89749da9d54ef2dbcb3bb90.setContent(html_3ff059f59be344b28e065785b0fe579b);
+        
+
+        marker_acd2206cf15c4eb79f10f42757d7596b.bindPopup(popup_daaf10fed89749da9d54ef2dbcb3bb90)
+        ;
+
+        
+    
+    
+            var marker_dbd7c637ea6947b8a64700007ccd21ed = L.marker(
+                [19.32920555, -89.94391483],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_0d189e4789de478ab3670f0f366a8bee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d2d993ea0da46b5aa80019030918bda = $(`<div id="html_4d2d993ea0da46b5aa80019030918bda" style="width: 100.0%; height: 100.0%;">Campeche: 122 positivos</div>`)[0];
+            popup_0d189e4789de478ab3670f0f366a8bee.setContent(html_4d2d993ea0da46b5aa80019030918bda);
+        
+
+        marker_dbd7c637ea6947b8a64700007ccd21ed.bindPopup(popup_0d189e4789de478ab3670f0f366a8bee)
+        ;
+
+        
+    
+    
+            var marker_a09af4f64ad44fb99732ad5b634d7bf0 = L.marker(
+                [16.500000099999998, -92.5000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_bb2088fc3dea488ea77f4cca73fd4add = L.popup({"maxWidth": "100%"});
+
+        
+            var html_381fea522c044728a111c9a87455cda6 = $(`<div id="html_381fea522c044728a111c9a87455cda6" style="width: 100.0%; height: 100.0%;">Chiapas: 231 positivos</div>`)[0];
+            popup_bb2088fc3dea488ea77f4cca73fd4add.setContent(html_381fea522c044728a111c9a87455cda6);
+        
+
+        marker_a09af4f64ad44fb99732ad5b634d7bf0.bindPopup(popup_bb2088fc3dea488ea77f4cca73fd4add)
+        ;
+
+        
+    
+    
+            var marker_2b053b0cdd2644b89c23c70150dd5164 = L.marker(
+                [28.500000099999998, -106.0000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_373b774e5c4347588bfbdef5b19c4fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97928c16d50a4c4fb97f9c4855f45da8 = $(`<div id="html_97928c16d50a4c4fb97f9c4855f45da8" style="width: 100.0%; height: 100.0%;">Chihuahua: 532 positivos</div>`)[0];
+            popup_373b774e5c4347588bfbdef5b19c4fd2.setContent(html_97928c16d50a4c4fb97f9c4855f45da8);
+        
+
+        marker_2b053b0cdd2644b89c23c70150dd5164.bindPopup(popup_373b774e5c4347588bfbdef5b19c4fd2)
+        ;
+
+        
+    
+    
+            var marker_483fc12c5d3549adae34217c24045bb7 = L.marker(
+                [27.326220000000003, -102.163658],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_7d17ffdb96b34d739aa082c42eabc02c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d2c31a0f1384037a81c69829ee815eb = $(`<div id="html_6d2c31a0f1384037a81c69829ee815eb" style="width: 100.0%; height: 100.0%;">Coahuila De Zaragoza: 476 positivos</div>`)[0];
+            popup_7d17ffdb96b34d739aa082c42eabc02c.setContent(html_6d2c31a0f1384037a81c69829ee815eb);
+        
+
+        marker_483fc12c5d3549adae34217c24045bb7.bindPopup(popup_7d17ffdb96b34d739aa082c42eabc02c)
+        ;
+
+        
+    
+    
+            var marker_a5bbf78a4ccd449994a40890b3125ed1 = L.marker(
+                [19.24997, -103.72714],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_9dc3b86aad554c8f9dc22ca259681c5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba5f1609f93747f08b63b065d370c040 = $(`<div id="html_ba5f1609f93747f08b63b065d370c040" style="width: 100.0%; height: 100.0%;">Colima: 30 positivos</div>`)[0];
+            popup_9dc3b86aad554c8f9dc22ca259681c5c.setContent(html_ba5f1609f93747f08b63b065d370c040);
+        
+
+        marker_a5bbf78a4ccd449994a40890b3125ed1.bindPopup(popup_9dc3b86aad554c8f9dc22ca259681c5c)
+        ;
+
+        
+    
+    
+            var marker_e2114e2cf4f4488abdeb7eda900444c6 = L.marker(
+                [24.833333, -104.833333],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_999007ae07f34a9489f18b75ca3def9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e87028888e724dd69ea3dfcc8da3b5f1 = $(`<div id="html_e87028888e724dd69ea3dfcc8da3b5f1" style="width: 100.0%; height: 100.0%;">Durango: 80 positivos</div>`)[0];
+            popup_999007ae07f34a9489f18b75ca3def9e.setContent(html_e87028888e724dd69ea3dfcc8da3b5f1);
+        
+
+        marker_e2114e2cf4f4488abdeb7eda900444c6.bindPopup(popup_999007ae07f34a9489f18b75ca3def9e)
+        ;
+
+        
+    
+    
+            var marker_2e0dd831d85f44d8a39cbd9e5ed7e8e0 = L.marker(
+                [19.4839446, -99.68997159999999],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_2c5d5586496d4ce590394187663ea719 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f93a2527c57444978aee950c08acc708 = $(`<div id="html_f93a2527c57444978aee950c08acc708" style="width: 100.0%; height: 100.0%;">Estado De Mexico: 4202 positivos</div>`)[0];
+            popup_2c5d5586496d4ce590394187663ea719.setContent(html_f93a2527c57444978aee950c08acc708);
+        
+
+        marker_2e0dd831d85f44d8a39cbd9e5ed7e8e0.bindPopup(popup_2c5d5586496d4ce590394187663ea719)
+        ;
+
+        
+    
+    
+            var marker_9b285013b69d4b96868c28026567ca67 = L.marker(
+                [20.987699600000003, -101.0],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_2562ee893ab441919b4aa208ef6e58e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a21a5469f3a4278aef589098a815b90 = $(`<div id="html_4a21a5469f3a4278aef589098a815b90" style="width: 100.0%; height: 100.0%;">Guanajuato: 315 positivos</div>`)[0];
+            popup_2562ee893ab441919b4aa208ef6e58e1.setContent(html_4a21a5469f3a4278aef589098a815b90);
+        
+
+        marker_9b285013b69d4b96868c28026567ca67.bindPopup(popup_2562ee893ab441919b4aa208ef6e58e1)
+        ;
+
+        
+    
+    
+            var marker_174ec48379f94bbaa574a92b8e50f3c2 = L.marker(
+                [17.666667, -100.0],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_8e10d55e8e6e480ba5b7f90eb3e357db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_909e94e1548641fca43fbe37fd31ee23 = $(`<div id="html_909e94e1548641fca43fbe37fd31ee23" style="width: 100.0%; height: 100.0%;">Guerrero: 366 positivos</div>`)[0];
+            popup_8e10d55e8e6e480ba5b7f90eb3e357db.setContent(html_909e94e1548641fca43fbe37fd31ee23);
+        
+
+        marker_174ec48379f94bbaa574a92b8e50f3c2.bindPopup(popup_8e10d55e8e6e480ba5b7f90eb3e357db)
+        ;
+
+        
+    
+    
+            var marker_537858d1a5234e88a92fe68fb9f3ff8b = L.marker(
+                [20.469160000000002, -98.987251],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_61b6fa6b89954080976e0d83ac432638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6e97b6f819f4a34818ac3f89204f259 = $(`<div id="html_b6e97b6f819f4a34818ac3f89204f259" style="width: 100.0%; height: 100.0%;">Hidalgo: 334 positivos</div>`)[0];
+            popup_61b6fa6b89954080976e0d83ac432638.setContent(html_b6e97b6f819f4a34818ac3f89204f259);
+        
+
+        marker_537858d1a5234e88a92fe68fb9f3ff8b.bindPopup(popup_61b6fa6b89954080976e0d83ac432638)
+        ;
+
+        
+    
+    
+            var marker_d43076c56af244eebd14e2af0c24efff = L.marker(
+                [20.3333331, -103.6666671],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_823a56f2645a4d688f8a99459e5b4471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_343ecbcd136b48e3ba95aabec76deac3 = $(`<div id="html_343ecbcd136b48e3ba95aabec76deac3" style="width: 100.0%; height: 100.0%;">Jalisco: 447 positivos</div>`)[0];
+            popup_823a56f2645a4d688f8a99459e5b4471.setContent(html_343ecbcd136b48e3ba95aabec76deac3);
+        
+
+        marker_d43076c56af244eebd14e2af0c24efff.bindPopup(popup_823a56f2645a4d688f8a99459e5b4471)
+        ;
+
+        
+    
+    
+            var marker_cfac20932b8343dc8a486dcdf8a8303e = L.marker(
+                [19.207098000000002, -101.878113],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_c1fcdc8892bc4c608af55ad2a673d835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4265d845c91f458d8c988b2cf4c89cb8 = $(`<div id="html_4265d845c91f458d8c988b2cf4c89cb8" style="width: 100.0%; height: 100.0%;">Michoacan De Ocampo: 375 positivos</div>`)[0];
+            popup_c1fcdc8892bc4c608af55ad2a673d835.setContent(html_4265d845c91f458d8c988b2cf4c89cb8);
+        
+
+        marker_cfac20932b8343dc8a486dcdf8a8303e.bindPopup(popup_c1fcdc8892bc4c608af55ad2a673d835)
+        ;
+
+        
+    
+    
+            var marker_16f11471379e4c348c017105488599e1 = L.marker(
+                [18.75, -99.0],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_116b992f49d840268d14a05fefce5c05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b9c384450cb40b0b0856a379250413d = $(`<div id="html_5b9c384450cb40b0b0856a379250413d" style="width: 100.0%; height: 100.0%;">Morelos: 500 positivos</div>`)[0];
+            popup_116b992f49d840268d14a05fefce5c05.setContent(html_5b9c384450cb40b0b0856a379250413d);
+        
+
+        marker_16f11471379e4c348c017105488599e1.bindPopup(popup_116b992f49d840268d14a05fefce5c05)
+        ;
+
+        
+    
+    
+            var marker_0e9345118f3b4626bb5c85b866724cd4 = L.marker(
+                [21.8438765, -104.87148540000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_b6d59b73ca6c447ab67bf1fea18984e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd449706fced489e80ee6cebb5e0b07c = $(`<div id="html_dd449706fced489e80ee6cebb5e0b07c" style="width: 100.0%; height: 100.0%;">Nayarit: 124 positivos</div>`)[0];
+            popup_b6d59b73ca6c447ab67bf1fea18984e0.setContent(html_dd449706fced489e80ee6cebb5e0b07c);
+        
+
+        marker_0e9345118f3b4626bb5c85b866724cd4.bindPopup(popup_b6d59b73ca6c447ab67bf1fea18984e0)
+        ;
+
+        
+    
+    
+            var marker_772efa169a0c40d7bda9fae5deb6f724 = L.marker(
+                [26.2384363, -99.8873],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_c66c49a5a66a4ba28b95620535a67487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbe1b24633c24ccda72dc1fc73d9fad5 = $(`<div id="html_fbe1b24633c24ccda72dc1fc73d9fad5" style="width: 100.0%; height: 100.0%;">Nuevo Leon: 442 positivos</div>`)[0];
+            popup_c66c49a5a66a4ba28b95620535a67487.setContent(html_fbe1b24633c24ccda72dc1fc73d9fad5);
+        
+
+        marker_772efa169a0c40d7bda9fae5deb6f724.bindPopup(popup_c66c49a5a66a4ba28b95620535a67487)
+        ;
+
+        
+    
+    
+            var marker_c0cb0faa0fb441a696baa928f4bae965 = L.marker(
+                [17.0, -96.5],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_2a69670b48834abe852d4ac07c1a7244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3610b5f2c5442729ba52ccade74f667 = $(`<div id="html_e3610b5f2c5442729ba52ccade74f667" style="width: 100.0%; height: 100.0%;">Oaxaca: 172 positivos</div>`)[0];
+            popup_2a69670b48834abe852d4ac07c1a7244.setContent(html_e3610b5f2c5442729ba52ccade74f667);
+        
+
+        marker_c0cb0faa0fb441a696baa928f4bae965.bindPopup(popup_2a69670b48834abe852d4ac07c1a7244)
+        ;
+
+        
+    
+    
+            var marker_13585c6eeab947f18dde201b1906c083 = L.marker(
+                [18.833333, -98.0],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_3d1d9a4845f54950819c25d4c09850f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c68c5f9df1341f68e92d4d14d7c8dda = $(`<div id="html_1c68c5f9df1341f68e92d4d14d7c8dda" style="width: 100.0%; height: 100.0%;">Puebla: 842 positivos</div>`)[0];
+            popup_3d1d9a4845f54950819c25d4c09850f0.setContent(html_1c68c5f9df1341f68e92d4d14d7c8dda);
+        
+
+        marker_13585c6eeab947f18dde201b1906c083.bindPopup(popup_3d1d9a4845f54950819c25d4c09850f0)
+        ;
+
+        
+    
+    
+            var marker_56ceec0966db46b8a970a393fcfce40c = L.marker(
+                [20.854257500000003, -99.84756],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_1fb5be16b9eb472cb594831190140b52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e979c9e9ee564cc5b758029bfb8889c8 = $(`<div id="html_e979c9e9ee564cc5b758029bfb8889c8" style="width: 100.0%; height: 100.0%;">Queretaro: 165 positivos</div>`)[0];
+            popup_1fb5be16b9eb472cb594831190140b52.setContent(html_e979c9e9ee564cc5b758029bfb8889c8);
+        
+
+        marker_56ceec0966db46b8a970a393fcfce40c.bindPopup(popup_1fb5be16b9eb472cb594831190140b52)
+        ;
+
+        
+    
+    
+            var marker_49cf6924506342fdb44dc6bcfedd847a = L.marker(
+                [19.6666671, -88.5000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_a045ebb424bd41a5b3b49096c5fca0db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc9a6e7285c4e0faa316034af8dcfee = $(`<div id="html_3cc9a6e7285c4e0faa316034af8dcfee" style="width: 100.0%; height: 100.0%;">Quintana Roo: 922 positivos</div>`)[0];
+            popup_a045ebb424bd41a5b3b49096c5fca0db.setContent(html_3cc9a6e7285c4e0faa316034af8dcfee);
+        
+
+        marker_49cf6924506342fdb44dc6bcfedd847a.bindPopup(popup_a045ebb424bd41a5b3b49096c5fca0db)
+        ;
+
+        
+    
+    
+            var marker_757e4702010e4f7181e3aaab96d64c31 = L.marker(
+                [22.549968, -100.28235],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_814a8e08f17b42dd9ec6d3f913237090 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab29a5be4e524f0783b762648f203b3d = $(`<div id="html_ab29a5be4e524f0783b762648f203b3d" style="width: 100.0%; height: 100.0%;">San Luis Potosi: 157 positivos</div>`)[0];
+            popup_814a8e08f17b42dd9ec6d3f913237090.setContent(html_ab29a5be4e524f0783b762648f203b3d);
+        
+
+        marker_757e4702010e4f7181e3aaab96d64c31.bindPopup(popup_814a8e08f17b42dd9ec6d3f913237090)
+        ;
+
+        
+    
+    
+            var marker_f0722376276c4457a366d09ad78ee292 = L.marker(
+                [25.0000001, -107.5000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_a2d27c8cc2a14447bf982eeb6ff988d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00119bb22ced47aabe5b25f945ccaa5a = $(`<div id="html_00119bb22ced47aabe5b25f945ccaa5a" style="width: 100.0%; height: 100.0%;">Sinaloa: 1161 positivos</div>`)[0];
+            popup_a2d27c8cc2a14447bf982eeb6ff988d8.setContent(html_00119bb22ced47aabe5b25f945ccaa5a);
+        
+
+        marker_f0722376276c4457a366d09ad78ee292.bindPopup(popup_a2d27c8cc2a14447bf982eeb6ff988d8)
+        ;
+
+        
+    
+    
+            var marker_fc973b1c37254593850c9387e78e5696 = L.marker(
+                [29.3333331, -110.66666709999998],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_582d4f2e61d448efa1c68dfebcad9513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbceee75715c4638bc668c8fca8bd146 = $(`<div id="html_fbceee75715c4638bc668c8fca8bd146" style="width: 100.0%; height: 100.0%;">Sonora: 280 positivos</div>`)[0];
+            popup_582d4f2e61d448efa1c68dfebcad9513.setContent(html_fbceee75715c4638bc668c8fca8bd146);
+        
+
+        marker_fc973b1c37254593850c9387e78e5696.bindPopup(popup_582d4f2e61d448efa1c68dfebcad9513)
+        ;
+
+        
+    
+    
+            var marker_f44728937eeb478094e410891c0c0113 = L.marker(
+                [17.95078635, -92.48312213],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_7c866852dbc74f4ba0ea71822931c807 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80b1156b5a874a47b9231a5e7db4f292 = $(`<div id="html_80b1156b5a874a47b9231a5e7db4f292" style="width: 100.0%; height: 100.0%;">Tabasco: 1247 positivos</div>`)[0];
+            popup_7c866852dbc74f4ba0ea71822931c807.setContent(html_80b1156b5a874a47b9231a5e7db4f292);
+        
+
+        marker_f44728937eeb478094e410891c0c0113.bindPopup(popup_7c866852dbc74f4ba0ea71822931c807)
+        ;
+
+        
+    
+    
+            var marker_3e26ef304a5c4060ad73885224f96621 = L.marker(
+                [24.266939999999998, -98.8362755],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_04d96e5034b54dd8aba79655ab9fec69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2701851359ab43a1b740c675b16f76f5 = $(`<div id="html_2701851359ab43a1b740c675b16f76f5" style="width: 100.0%; height: 100.0%;">Tamaulipas: 388 positivos</div>`)[0];
+            popup_04d96e5034b54dd8aba79655ab9fec69.setContent(html_2701851359ab43a1b740c675b16f76f5);
+        
+
+        marker_3e26ef304a5c4060ad73885224f96621.bindPopup(popup_04d96e5034b54dd8aba79655ab9fec69)
+        ;
+
+        
+    
+    
+            var marker_eed9a47de7424059ae7d49f2c3715fb9 = L.marker(
+                [19.416667, -98.166667],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_b7dbe49c84da448193ca62d417416b8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9cbc2e3c6c746d88263585ad4cba077 = $(`<div id="html_c9cbc2e3c6c746d88263585ad4cba077" style="width: 100.0%; height: 100.0%;">Tlaxcala: 250 positivos</div>`)[0];
+            popup_b7dbe49c84da448193ca62d417416b8d.setContent(html_c9cbc2e3c6c746d88263585ad4cba077);
+        
+
+        marker_eed9a47de7424059ae7d49f2c3715fb9.bindPopup(popup_b7dbe49c84da448193ca62d417416b8d)
+        ;
+
+        
+    
+    
+            var marker_21e0a53adaba45739044ec9a55ccbb62 = L.marker(
+                [19.333333, -96.666667],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_907cc0a39a204d3181824837b4e2f538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8092abac26ff467d958941aa5450d412 = $(`<div id="html_8092abac26ff467d958941aa5450d412" style="width: 100.0%; height: 100.0%;">Veracruz De Ignacio De La Llave: 803 positivos</div>`)[0];
+            popup_907cc0a39a204d3181824837b4e2f538.setContent(html_8092abac26ff467d958941aa5450d412);
+        
+
+        marker_21e0a53adaba45739044ec9a55ccbb62.bindPopup(popup_907cc0a39a204d3181824837b4e2f538)
+        ;
+
+        
+    
+    
+            var marker_2f9ae1ce471146a3920ab682aee8efb5 = L.marker(
+                [20.6845957, -88.87556690000001],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_d3ed51463a484944a32d516e4a49bbca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bf0bcf5f94a41f0b178f237eb4e0616 = $(`<div id="html_7bf0bcf5f94a41f0b178f237eb4e0616" style="width: 100.0%; height: 100.0%;">Yucatan: 608 positivos</div>`)[0];
+            popup_d3ed51463a484944a32d516e4a49bbca.setContent(html_7bf0bcf5f94a41f0b178f237eb4e0616);
+        
+
+        marker_2f9ae1ce471146a3920ab682aee8efb5.bindPopup(popup_d3ed51463a484944a32d516e4a49bbca)
+        ;
+
+        
+    
+    
+            var marker_ffc0b338051d4c16bf04709f5725a607 = L.marker(
+                [23.593719, -102.99256899999999],
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+        var popup_03f2f28f63bf4c2b8a622c8c681825db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20f89611897847b982f574b74229e7d8 = $(`<div id="html_20f89611897847b982f574b74229e7d8" style="width: 100.0%; height: 100.0%;">Zacatecas: 110 positivos</div>`)[0];
+            popup_03f2f28f63bf4c2b8a622c8c681825db.setContent(html_20f89611897847b982f574b74229e7d8);
+        
+
+        marker_ffc0b338051d4c16bf04709f5725a607.bindPopup(popup_03f2f28f63bf4c2b8a622c8c681825db)
+        ;
+
+        
+    
+    
+            var feature_group_e0cee1d1c9254da09c1d81d99d153e97 = L.featureGroup(
+                {}
+            ).addTo(map_3bab5464dcb94363ab677fc6654fde6f);
+        
+    
+            var circle_marker_c2334170eb934b23984713b05d5eeb60 = L.circleMarker(
+                [21.8818, -102.291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_6fa58bf1124447d48a5c55b5bf8be485 = L.circleMarker(
+                [29.95, -115.11666699999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_741a03c25d5f478a981b6e21025df8f9 = L.circleMarker(
+                [25.625057, -111.70068400000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_a34cecb3c9ef47de98396ef71d57b019 = L.circleMarker(
+                [19.4326296, -99.1331785],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_031765153c6c457a95b4307a728ddd2d = L.circleMarker(
+                [19.32920555, -89.94391483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_c7a0f9988f16490d9b60a2fbe2139155 = L.circleMarker(
+                [16.500000099999998, -92.5000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_1ea5cf87b46542509177670107c977ac = L.circleMarker(
+                [28.500000099999998, -106.0000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_63bbf9baf17d47f08fbb6cf842edd6d0 = L.circleMarker(
+                [27.326220000000003, -102.163658],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_71dc97d99af141a59c5f73456208300c = L.circleMarker(
+                [19.24997, -103.72714],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_2e65920d8aaf49f78315d61a19c6977e = L.circleMarker(
+                [24.833333, -104.833333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_07fe87db11f143de8f7efec50d9e5798 = L.circleMarker(
+                [19.4839446, -99.68997159999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_f06beaa0e37e40a3933768b71444794d = L.circleMarker(
+                [20.987699600000003, -101.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_4ad1a3eecded439c916d978667300797 = L.circleMarker(
+                [17.666667, -100.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_54824e7d85df495dad04ec8e3cedeaf6 = L.circleMarker(
+                [20.469160000000002, -98.987251],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_0d8357e0a09b4840981372fe153c9732 = L.circleMarker(
+                [20.3333331, -103.6666671],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_d8fabc6f52404e3f81a02fa6315b265c = L.circleMarker(
+                [19.207098000000002, -101.878113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_758dc04ec6fa4f8bab75b3a21edd417d = L.circleMarker(
+                [18.75, -99.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_b6272d1916544b8eaae604f69f0b0409 = L.circleMarker(
+                [21.8438765, -104.87148540000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_7e5a7e2a8703433ebe49a96494f8d1e2 = L.circleMarker(
+                [26.2384363, -99.8873],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_3ca04e6735734a76a0db7a357b728f4c = L.circleMarker(
+                [17.0, -96.5],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_3dac00f42bdb4bec8c0f82548b2cb04b = L.circleMarker(
+                [18.833333, -98.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_a4e21f681da84f0cae7e4e24ff885561 = L.circleMarker(
+                [20.854257500000003, -99.84756],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_d476e7c264374379b24703291ffff5bf = L.circleMarker(
+                [19.6666671, -88.5000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_24503a338ebd4727a967abcaf8a9b4e7 = L.circleMarker(
+                [22.549968, -100.28235],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_1e6c0cdced89486a930057f6f905022c = L.circleMarker(
+                [25.0000001, -107.5000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_20bab0d1018a4890b2ffc15a2f0d6d9e = L.circleMarker(
+                [29.3333331, -110.66666709999998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_91ee23149ec1489595de4edf3a0e9fae = L.circleMarker(
+                [17.95078635, -92.48312213],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_56ca625cbe014ff48041cf2b295ad3e5 = L.circleMarker(
+                [24.266939999999998, -98.8362755],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_3d176fa0d1df42938d247ba9f0c3b9f9 = L.circleMarker(
+                [19.416667, -98.166667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_7a268d2c245047e68d863cd9ad3a722c = L.circleMarker(
+                [19.333333, -96.666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_62cdd33749d5414ca197c1e030b4939b = L.circleMarker(
+                [20.6845957, -88.87556690000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+    
+            var circle_marker_4ed31f36259f44c79963dae58d38adff = L.circleMarker(
+                [23.593719, -102.99256899999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e0cee1d1c9254da09c1d81d99d153e97);
+        
+</script>
