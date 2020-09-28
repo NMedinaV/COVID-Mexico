@@ -1,2 +1,2 @@
 # COVID-Mexico
-Análisis sobre el COVID en Méjico
+Análisis sobre el COVID en Mexico
